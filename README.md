@@ -180,14 +180,4 @@ Evento de notificacion:
 }
 ```
 
-## Estado actual de build
 
-- `dotnet build LoginMS.sln` compila correctamente.
-- Existen warnings de nullability en DTOs y entidades que no bloquean ejecucion, pero se pueden limpiar en una mejora posterior.
-
-## Recomendaciones para publicarlo en GitHub
-
-- Mantener este repo como template para futuros proyectos.
-- Agregar `LICENSE` (por ejemplo MIT).
-- No subir secretos ni credenciales.
-- Si vas a exponerlo como portfolio, incluir roadmap de mejoras (tests, CI, endurecimiento de seguridad).
